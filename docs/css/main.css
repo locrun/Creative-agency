@@ -319,6 +319,7 @@ img {
   background-color: #fd8686;
   padding-top: 120px;
   padding-bottom: 110px;
+  position: relative;
 }
 .feedback__title {
   font-family: "Montserrat-Black";
@@ -328,6 +329,8 @@ img {
   text-transform: uppercase;
   letter-spacing: -3px;
   margin: 0;
+  position: relative;
+  z-index: 3;
 }
 .feedback__subtitle {
   font-family: "Montserrat-Regular";
@@ -337,19 +340,83 @@ img {
   max-width: 998px;
   margin: 0 auto;
   padding-top: 40px;
+  padding-bottom: 70px;
+  position: relative;
+  z-index: 3;
 }
 .feedback__items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 70px;
+}
+.feedback .feedback__item {
   background-color: #000000;
   max-width: 365px;
+  text-align: left;
+  position: relative;
+  z-index: 3;
+}
+.feedback .feedback__item:after {
+  position: absolute;
+  content: ",,";
+  font-family: "haettenshweiler";
+  font-size: 156px;
+  color: yellow;
+  right: 3%;
+  top: -9%;
+  line-height: 0;
+}
+.feedback__item-wrapper {
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 300px;
+}
+.feedback__item-userphoto img {
+  max-width: none;
+}
+.feedback__item-userinfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feedback__item-infowrap {
+  margin-left: 18px;
 }
 .feedback__item-username {
+  font-family: "Montserrat-Bold";
+  font-size: 25px;
+  line-height: 1;
   color: #fff;
+  display: inline-block;
+  margin: 0;
 }
 .feedback__item-speciality {
+  font-family: "Montserrat-Medium";
+  font-size: 17px;
   color: #fff;
+  display: inline-block;
+  margin: 0;
 }
 .feedback__item-usercomment {
+  font-family: "Montserrat-Regular";
+  font-size: 15px;
+  line-height: 1.8;
   color: #a3a3a3;
+}
+.feedback::after {
+  position: absolute;
+  content: "";
+  background-image: url("../img/feedback-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 .nav {
   position: relative;
