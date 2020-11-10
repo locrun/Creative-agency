@@ -8,7 +8,6 @@ body {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
-  text-align: center;
 }
 img {
   max-width: 100%;
@@ -20,6 +19,7 @@ img {
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: center bottom 60%;
+  text-align: center;
 }
 @media (min-width: 768px) {
   .header {
@@ -70,6 +70,7 @@ img {
   background-color: #0c0c0c;
   padding-top: 40px;
   padding-bottom: 40px;
+  text-align: center;
   position: relative;
 }
 @media (min-width: 768px) {
@@ -204,13 +205,13 @@ img {
 .button--color {
   background-color: #f8d302;
   display: inline-block;
-  text-align: center;
   margin-top: 23 0px;
   padding: 13px 15px;
   padding-bottom: 10px;
   cursor: pointer;
   position: relative;
   z-index: 3;
+  text-align: center;
 }
 @media (min-width: 992px) {
   .button {
@@ -250,6 +251,7 @@ img {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #f8e430;
+  text-align: center;
   position: relative;
 }
 @media (min-width: 768px) {
@@ -319,6 +321,7 @@ img {
   background-color: #fd8686;
   padding-top: 40px;
   padding-bottom: 40px;
+  text-align: center;
   position: relative;
 }
 @media (min-width: 768px) {
@@ -454,6 +457,44 @@ img {
   left: 0;
   right: 0;
   z-index: 1;
+}
+.feedback-form {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f8e530;
+}
+.feedback-form__title {
+  font-family: "Montserrat-Black";
+  font-size: 55px;
+  letter-spacing: -5px;
+  text-transform: uppercase;
+  margin-top: 0;
+  text-align: center;
+}
+.contact__name {
+  font-family: "Montserrat-Bold";
+  font-size: 19px;
+  color: #080808;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.contact__text {
+  font-family: "Montserrat-Regular";
+  font-size: 16px;
+  color: #080808;
+  max-width: 300px;
+  margin: 5px 0;
+}
+.flex-form {
+  display: flex;
+  justify-content: space-around;
+}
+.form textarea {
+  background-color: #000000;
+  width: 650px;
+}
+.form input {
+  background-color: #000000;
 }
 .nav {
   position: relative;
@@ -727,4 +768,21 @@ img {
 .rating[data-total-value="4"] .rating__item:nth-child(n + 2),
 .rating[data-total-value="5"] .rating__item:nth-child(n + 1) {
   color: #f8e530;
+}
+.scale {
+  display: inline-block;
+  /* Строчно-блочный элемент */
+  overflow: hidden;
+  /* Скрываем всё за контуром */
+}
+.scale img {
+  transition: 1s;
+  /* Время эффекта */
+  display: block;
+  /* Убираем небольшой отступ снизу */
+  cursor: pointer;
+}
+.scale img:hover {
+  transform: scale(1.2);
+  /* Увеличиваем масштаб */
 }
