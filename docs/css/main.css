@@ -50,6 +50,7 @@ img {
   color: #fff;
   margin: 0;
   line-height: 0.8;
+  text-align: left;
 }
 @media (min-width: 1200px) {
   .logo {
