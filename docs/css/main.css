@@ -382,7 +382,12 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
+}
+@media (min-width: 1200px) {
+  .feedback__items {
+    padding-bottom: 70px;
+  }
 }
 @media (min-width: 1160px) {
   .feedback__items {
@@ -396,7 +401,15 @@ img {
   text-align: left;
   position: relative;
   z-index: 3;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+}
+.feedback .feedback__item:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 992px) {
+  .feedback .feedback__item:last-child {
+    margin-bottom: 25px;
+  }
 }
 .feedback .feedback__item:after {
   position: absolute;
@@ -636,6 +649,98 @@ img {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+}
+.footer {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background-color: #0b0b0b;
+}
+.footer__flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .footer__flex-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.footer__group {
+  max-width: 290px;
+  text-align: left;
+}
+.footer__logo {
+  font-family: "Thinking_of_Betty";
+  color: #fff;
+  margin: 0;
+  line-height: 0.8;
+  text-align: left;
+}
+.footer__logo a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+}
+.footer__text {
+  font-family: "Montserrat-Regular";
+  font-size: 15px;
+  color: #a5a5a5;
+  margin-top: 30px;
+  line-height: 1.4;
+}
+@media (min-width: 992px) {
+  .footer__text {
+    margin-top: 45px;
+    font-size: 17px;
+  }
+}
+.footer__title {
+  font-family: "Montserrat-Bold";
+  font-size: 19px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+@media (min-width: 992px) {
+  .footer__title {
+    margin-top: 35px;
+    margin-bottom: 55px;
+  }
+}
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+}
+.footer__list-item {
+  font-family: "Montserrat-Regular";
+  font-size: 19px;
+  margin-bottom: 18px;
+}
+@media (mni-width: 992px) {
+  .footer__list-item {
+    margin-bottom: 22px;
+  }
+}
+.footer__list-item a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+}
+.footer__list-item a:hover {
+  color: #f8e530;
+  transition: 0.3s ease-in-out;
+}
+.footer__social-icons a {
+  margin-right: 20px;
+}
+.footer__social-icons a:last-child {
+  margin-right: 0;
+}
+.fa {
+  font-size: 20px;
+  color: yellow;
 }
 .nav {
   position: relative;
