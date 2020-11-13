@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/owl-dots.css" />
   </head>
   <body>
-    <header class="header">
+    <header id="header" class="header">
       <div class="nav-bg-wrapper">
         <div class="nav-flex-container">
           <div class="logo">
@@ -22,22 +22,33 @@
               </p></a
             >
           </div>
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__list-item">
-                <a class="nav__list-link" href="">HOME</a>
+          <!-- // NAvigation Icon -->
+          <div class="navigation__toggle navigation__toggle--fixed">
+            <button
+              id="navigation__button"
+              class="cmn-toggle-switch cmn-toggle-switch__htx"
+            >
+              <span>toggle menu</span>
+            </button>
+          </div>
+          <!-- // NAvigation Icon -->
+
+          <nav class="navigation">
+            <ul class="navigation__list navigation__list">
+              <li class="navigation__list-item">
+                <a href="#header">HOME</a>
               </li>
-              <li class="nav__list-item">
-                <a class="nav__list-link" href="">PAGE</a>
+              <li class="navigation__list-item">
+                <a href="#benefits">PAGE</a>
               </li>
-              <li class="nav__list-item">
-                <a class="nav__list-link" href="">PORTFOLIO</a>
+              <li class="navigation__list-item">
+                <a href="#portfolio">PORTFOLIO</a>
               </li>
-              <li class="nav__list-item">
-                <a class="nav__list-link" href="">BLOG</a>
+              <li class="navigation__list-item">
+                <a href="#blog">BLOG</a>
               </li>
-              <li class="nav__list-item">
-                <a class="nav__list-link" href="">CONTACT US</a>
+              <li class="navigation__list-item">
+                <a href="#footer">CONTACT US</a>
               </li>
             </ul>
           </nav>
@@ -111,7 +122,7 @@
       </div>
     </header>
 
-    <section class="benefits">
+    <section id="benefits" class="benefits">
       <div class="container">
         <h1 class="benefits__title">
           YOU DREAM. <span class="benefits__title--color">WE DESIGN</span>
@@ -160,7 +171,7 @@
       </div>
     </section>
 
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
       <div class="container">
         <h1 class="portfolio__title">Our Creative Work</h1>
         <p class="portfolio__subtitle">
@@ -212,7 +223,7 @@
       </div>
     </div>
     <!-- block dymmy-logos -->
-    <section class="feedback">
+    <section id="blog" class="feedback">
       <div class="container">
         <h1 class="feedback__title">Our User’s Review</h1>
         <p class="feedback__subtitle">
@@ -355,7 +366,7 @@
         </div>
       </div>
     </section>
-    <section class="footer">
+    <section id="footer" class="footer">
       <div class="container">
         <div class="footer__flex-container">
           <div class="footer__group">
@@ -416,6 +427,7 @@
 
     <script src="js/jQuery.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="libs/pagescroll2id/jquery.malihu.PageScroll2id.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
