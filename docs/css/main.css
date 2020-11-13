@@ -185,6 +185,7 @@ img {
   color: #8e8e8e;
   max-width: 320px;
   text-align: center;
+  margin: 14px;
 }
 @media (min-width: 992px) {
   .benefits-card__desc {
@@ -252,8 +253,8 @@ img {
 }
 @media (min-width: 768px) {
   .branding {
-    height: 322px;
-    width: 322px;
+    height: 332px;
+    width: 332px;
   }
 }
 .design {
@@ -271,8 +272,8 @@ img {
 }
 @media (min-width: 768px) {
   .design {
-    height: 342px;
-    width: 342px;
+    height: 332px;
+    width: 332px;
   }
 }
 .creative {
@@ -286,12 +287,12 @@ img {
   width: 242px;
   margin-bottom: 23px;
   background: url("../img/creative.jpg");
-  background-position: center 67%;
+  background-position: center 71%;
 }
 @media (min-width: 768px) {
   .creative {
-    height: 322px;
-    width: 322px;
+    height: 332px;
+    width: 332px;
   }
 }
 .portfolio {
