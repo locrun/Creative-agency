@@ -88,7 +88,7 @@ img {
 }
 @media (min-width: 1200px) {
   .benefits {
-    padding-top: 130px;
+    padding-top: 120px;
     padding-bottom: 100px;
   }
 }
@@ -314,9 +314,14 @@ img {
   justify-content: center;
   flex-wrap: wrap;
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   position: relative;
   z-index: 3;
+}
+@media (min-width: 992px) {
+  .gallery {
+    padding-bottom: 20px;
+  }
 }
 .feedback {
   background-color: #fd8686;
@@ -333,7 +338,7 @@ img {
 }
 @media (min-width: 992px) {
   .feedback {
-    padding-top: 120px;
+    padding-top: 110px;
     padding-bottom: 110px;
   }
 }
@@ -406,9 +411,14 @@ img {
 .feedback .feedback__item:last-child {
   margin-bottom: 0;
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .feedback .feedback__item:last-child {
-    margin-bottom: 25px;
+    margin-bottom: 0px;
+  }
+}
+@media (min-width: 1200px) {
+  .feedback .feedback__item {
+    margin-bottom: 0;
   }
 }
 .feedback .feedback__item:after {
@@ -613,7 +623,7 @@ img {
   cursor: pointer;
   position: relative;
   margin-left: 26px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 @media (min-width: 992px) {
   .button--ml {
@@ -654,6 +664,18 @@ img {
   padding-top: 50px;
   padding-bottom: 40px;
   background-color: #0b0b0b;
+}
+@media (mni-width: 992px) {
+  .footer {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 130px;
+  }
 }
 .footer__flex-container {
   display: flex;
@@ -1031,4 +1053,16 @@ img {
 .scale img:hover {
   transform: scale(1.2);
   /* Увеличиваем масштаб */
+}
+.copyright {
+  background-color: #f8e530;
+  padding-top: 37px;
+  padding-bottom: 42px;
+  text-align: center;
+}
+.copyright__text {
+  font-family: "Montserrat-Bold";
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0;
 }
