@@ -623,7 +623,7 @@ img {
   cursor: pointer;
   position: relative;
   margin-left: 26px;
-  margin-top: 40px;
+  margin-top: 25px;
 }
 @media (min-width: 992px) {
   .button--ml {
@@ -857,7 +857,7 @@ img {
   justify-content: center;
   flex-wrap: wrap;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .slider-block {
     flex-wrap: nowrap;
   }
@@ -874,10 +874,10 @@ img {
 }
 @media (min-width: 768px) {
   .picture {
-    width: 300px;
+    width: 250;
   }
 }
-@media (mni-width: 992px) {
+@media (min-width: 992px) {
   .picture {
     width: 370px;
   }
@@ -891,9 +891,15 @@ img {
   max-width: 600px;
   text-align: center;
 }
+@media (min-width: 768px) {
+  .text-content {
+    max-width: 400px;
+  }
+}
 @media (min-width: 992px) {
   .text-content {
     margin-top: 15px;
+    max-width: 600px;
   }
 }
 @media (min-width: 1200px) {
