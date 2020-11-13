@@ -244,8 +244,8 @@ img {
   border-radius: 50%;
   background-color: #e4e4e4;
   overflow: hidden;
-  height: 222px;
-  width: 222px;
+  height: 242px;
+  width: 242px;
   margin-bottom: 23px;
   background: url("../img/branding.jpg");
   background-position: center center;
@@ -263,16 +263,16 @@ img {
   border-radius: 50%;
   background-color: #e4e4e4;
   overflow: hidden;
-  height: 222px;
-  width: 222px;
+  height: 242px;
+  width: 2242px;
   margin-bottom: 23px;
   background: url("../img/design.jpg");
   background-position: center center;
 }
 @media (min-width: 768px) {
   .design {
-    height: 322px;
-    width: 322px;
+    height: 342px;
+    width: 342px;
   }
 }
 .creative {
@@ -282,8 +282,8 @@ img {
   border-radius: 50%;
   background-color: #e4e4e4;
   overflow: hidden;
-  height: 222px;
-  width: 222px;
+  height: 242px;
+  width: 242px;
   margin-bottom: 23px;
   background: url("../img/creative.jpg");
   background-position: center 67%;
