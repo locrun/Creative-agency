@@ -1120,9 +1120,9 @@ img {
 .cmn-toggle-switch {
   font-size: 0;
   position: absolute;
-  z-index: 5;
-  top: 0;
-  right: -15px;
+  z-index: 100;
+  top: 25px;
+  right: 16px;
   display: block;
   overflow: hidden;
   width: 50px;
@@ -1200,7 +1200,7 @@ img {
 }
 /* active state*/
 .cmn-toggle-switch__htx.active {
-  z-index: 0;
+  position: fixed;
 }
 .cmn-toggle-switch__htx.active span {
   background: none;
