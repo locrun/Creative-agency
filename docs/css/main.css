@@ -330,7 +330,7 @@ img {
 @media (min-width: 992px) {
   .portfolio {
     padding-top: 90px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
   }
 }
 .portfolio__title {
