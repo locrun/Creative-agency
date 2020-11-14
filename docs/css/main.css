@@ -233,10 +233,15 @@ img {
 }
 .button--color a {
   font-family: "Montserrat-Black";
-  font-size: 19px;
+  font-size: 14px;
   color: #000;
   text-transform: uppercase;
   text-decoration: none;
+}
+@media (min-width: 992px) {
+  .button--color a {
+    font-size: 19px;
+  }
 }
 .branding {
   border-style: solid;
@@ -702,10 +707,15 @@ img {
 }
 .button--ml a {
   font-family: "Montserrat-Black";
-  font-size: 19px;
+  font-size: 14px;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+}
+@media (min-width: 992px) {
+  .button--ml a {
+    font-size: 19px;
+  }
 }
 .footer {
   padding-top: 50px;
@@ -1035,7 +1045,7 @@ img {
   font-family: "Montserrat-Regular";
   font-weight: 600;
   color: #080808;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1;
   text-transform: uppercase;
   text-align: center;
@@ -1105,10 +1115,15 @@ img {
 }
 .button a {
   font-family: "Montserrat-Black";
-  font-size: 19px;
+  font-size: 14px;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+}
+@media (min-width: 992px) {
+  .button a {
+    font-size: 19px;
+  }
 }
 .dummy-logos {
   text-align: center;

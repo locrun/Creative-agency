@@ -96,7 +96,7 @@
     font-family: "Montserrat-Regular";
     font-weight: 600;
     color: #080808;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1;
     text-transform: uppercase;
     text-align: center;
@@ -162,16 +162,13 @@
   }
   a {
     font-family: "Montserrat-Black";
-    font-size: 19px;
+    font-size: 14px;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
+
+    @media (min-width: 992px) {
+      font-size: 19px;
+    }
   }
 }
-
-// .picture:before {
-//   display: none;
-//   position: absolute;
-//   content: url("/img/shadow.png");
-//   bottom: -50px;
-// }
