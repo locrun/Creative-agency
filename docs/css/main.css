@@ -23,14 +23,14 @@ img {
 }
 @media (min-width: 768px) {
   .header {
-    background-size: 90%;
-    background-position: center top 30%;
+    background-size: 75%;
+    background-position: center top 70%;
   }
 }
 @media (min-width: 992px) {
   .header {
-    background-size: 90%;
-    background-position: center top 70%;
+    background-size: 85%;
+    background-position: center center;
   }
 }
 @media (min-width: 1200px) {
