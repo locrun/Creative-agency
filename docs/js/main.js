@@ -50,4 +50,7 @@ $(document).ready(function () {
   ).mPageScroll2id({
     highlightSelector: "nav a",
   });
+
+  // Инициализация библиотеки с анимацией AOS
+  AOS.init();
 });
