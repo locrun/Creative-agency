@@ -68,6 +68,20 @@ img {
   color: #fff;
   display: inline-block;
 }
+.logo__element {
+  font-size: 28px;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .logo__element {
+    font-size: 35px;
+  }
+}
+@media (min-width: 992px) {
+  .logo__element {
+    font-size: 38px;
+  }
+}
 .blog {
   background-color: #0c0c0c;
   padding-top: 40px;
@@ -1182,8 +1196,8 @@ img {
   font-size: 0;
   position: absolute;
   z-index: 100;
-  top: 32px;
-  right: 16px;
+  top: 30px;
+  right: 13px;
   display: block;
   overflow: hidden;
   width: 50px;
