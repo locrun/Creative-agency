@@ -883,7 +883,7 @@ img {
 }
 .navigation__list--open {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
