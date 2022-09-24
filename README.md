@@ -1,3 +1,3 @@
-# layoutByTemplate
- Layout of the template "Creative-Agency-Portfolio-Website-" by psd layout
+# layoutByTemplate 
+### Верстка лендинга по psd макету
 ### [online demo](https://locrun.github.io/Template/)
